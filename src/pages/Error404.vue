@@ -18,13 +18,5 @@
 <script>
 export default {
   name: 'Error404',
-  data() {
-    return {};
-  },
-  methods: {},
 };
 </script>
-
-<style>
-</style>
-

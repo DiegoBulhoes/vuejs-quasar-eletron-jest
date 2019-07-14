@@ -4,15 +4,11 @@
   </q-page>
 </template>
 
+<style>
+</style>
+
 <script>
 export default {
   name: 'PageIndex',
-  data() {
-    return {};
-  },
-  methods: {},
 };
 </script>
-
-<style>
-</style>
