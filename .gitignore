@@ -2,14 +2,11 @@
 .DS_Store
 .thumbs.db
 node_modules
-coverage
 /dist
 /src-cordova/node_modules
 /src-cordova/platforms
 /src-cordova/plugins
 /src-cordova/www
-.directory
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -21,3 +18,6 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+test/jest/coverage/
+.directory
