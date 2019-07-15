@@ -13,17 +13,7 @@ yarn install
 yarn run dev
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
 ### Run your tests + coverage
 ```
-yarn run test:cover
+yarn run test
 ```
