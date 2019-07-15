@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --fix  --ext .js,.vue src",
     "test": "quasar test --unit jest",
+    "build:pwa": "quasar build -m pwa",
     "dev": "quasar dev -m electron -t ios"
   },
   "dependencies": {
