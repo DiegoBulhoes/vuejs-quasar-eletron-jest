@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --fix  --ext .js,.vue src",
     "test": "quasar test --unit jest",
+    "build:eletron": "quasar build -m electron",
     "build:pwa": "quasar build -m pwa",
     "dev": "quasar dev -m electron -t ios"
   },
@@ -28,8 +29,10 @@
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
     "electron": "^5.0.0",
+    "electron-builder": "^21.0.15",
     "electron-debug": "^3.0.0",
     "electron-devtools-installer": "^2.2.4",
+    "electron-packager": "^13.1.0",
     "eslint": "^5.10.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.0.0"
